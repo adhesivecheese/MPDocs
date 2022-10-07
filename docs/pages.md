@@ -66,8 +66,8 @@ is pulled from your subreddit's modlog, not through Modpanel itself, so even
 if your teammate isn't using Modpanel, they'll still show as active. This 
 updates once every 60 seconds, or whenever a mod performs an action. Mousing 
 over the relative time will give you an exact timestamp of when the action 
-took place. (**Please Note:** Moderators *should* be removed from this list 
-after 15 minutes; they're currently not if they were there when the page loaded)
+took place.
+
 * Items with User Reports - A list of post titles/comments in your 
 currently-loaded queue which have been reported by users. Clicking on a title 
 will jump you to that item in the right column.
@@ -143,8 +143,7 @@ Two additional settings appear in this panel:
 * `Action for no usernote` is the action to perform when not issuing a usernote 
 with a removal. Defaults to `None`, but if your team *doesn't* log every 
 removal with a note, setting this to `Remove` may be useful. You cannot set 
-this action to `Do Not Display`. (**Please Note:** Modpanel currently does not 
-respect this setting)
+this action to `Do Not Display`.
 * `Default Temporary Ban Days` is the number of days that a Temporary Ban 
 should be set for if not otherwise specified.
 
@@ -192,8 +191,7 @@ The Diff page allows you to enter a post id for a Reddit post, view edits to a
 post compared to the version archived on Pushshift, if available. The intended 
 usage for this page is to compare edits to see if a removed post which has been 
 edited is suitable to be approved; as such, there is an approve button at the 
-bottom of the post. **Please Note: This is currently broken, as well as 
-converting timestamps to relative times.**
+bottom of the post.
 
 Three tabs are available:
 
